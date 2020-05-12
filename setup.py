@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="service_logger", # Replace with your own username
-    version="0.0.1",
+    version="0.0.3",
     author="Jialin Liu",
     author_email="valiantljk@gmail.com",
     description="Logger for K8S services",

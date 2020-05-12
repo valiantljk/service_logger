@@ -13,7 +13,7 @@ class Test_Redis():
         #setting up Redis connection
         host = os.getenv('RedisHost', default = 'localhost')
         port = os.getenv('RedisPort', default = '6379')
-        password = os.getenv('RedisPass', default = 'sunmiai2020')
+        password = os.getenv('RedisPass', default = 'idontknow')
         r = Redis(host, port, password)
         self.r = r
     def test_put_onelog(self):

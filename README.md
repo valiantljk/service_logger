@@ -1,7 +1,7 @@
 # Install service_logger
 * Install from pypi with pip3
 ```
-pip3 install -i https://test.pypi.org/simple/ service-logger==0.0.1
+pip3 install -i https://test.pypi.org/simple/ service-logger==0.0.3
 ```
 * Install from source code
 ```
